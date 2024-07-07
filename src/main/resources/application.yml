@@ -1,0 +1,26 @@
+spring:
+  application:
+    name: ebanking-back
+  datasource:
+    url: jdbc:postgresql://localhost:5432/ebank-db
+    username: '${DB_USERNAME}'
+    password: '${DB_PASSWORD}'
+    name: ebank-db
+  jpa:
+    properties:
+      hibernate:
+        dialect: org.hibernate.dialect.PostgreSQLDialect
+    hibernate:
+      ddl-auto: update
+    show-sql: false
+
+  mvc:
+    format:
+      date: yyyy-mm-dd
+
+server:
+  port: 8085
+
+jwt:
+  secret: c6f2fa08d4d18d17bde5287bc15856d2375b83307385e8b76a93b5e6d86a35df
+

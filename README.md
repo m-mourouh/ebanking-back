@@ -8,3 +8,10 @@
 # Schemas
 `CustomerDTO{id integer($int64), name string, email string}`
 
+`TransferRequestDTO{
+accountSource	string
+accountDestination	string
+amount	number($double)
+description	string
+}`
+

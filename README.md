@@ -7,8 +7,8 @@
 
 # Schemas
 `CustomerDTO{
-id	integer($int64)
-name	string
-email	string
+id integer($int64)
+name string
+email string
 }`
 

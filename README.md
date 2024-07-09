@@ -6,9 +6,5 @@
 ![image](https://github.com/m-mourouh/ebanking-back/assets/60442896/fb6549d0-0504-48e6-9467-da9a00d78c7a)
 
 # Schemas
-`CustomerDTO{
-id integer($int64)
-name string
-email string
-}`
+`CustomerDTO{id integer($int64), name string, email string}`
 
